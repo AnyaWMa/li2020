@@ -1,0 +1,89 @@
+---
+title: "Replication of Lab and Online Experiments by Li et al.(2020, Scientific Reports)"
+author: "Wanjing Anya Ma wanjingm@stanford.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+## Introduction
+
+Online experiments enable psychophysical researchers to study larger and more diverse participant samples than they could have in the laboratory but leave challenges in controlling participants’ viewing distance and the presentation of visual stimuli. The Virtual Chinrest, introduced and validated in Li et al. (2020), was designed to tackle these challenges by an estimation of the viewing distance through measuring the participant’s blind spot location. The authors included two main parts: (1) two validation experiments of the Virtual Chinrest in the lab with participants being instructed to sit at varying viewing distances, and (2) a successful online replication of a lab-based study on visual crowding using the Virtual Chinrest. 
+
+### Justification for choice of study
+
+I chose to replicate this study for three reasons. (1) As a new student of psychophysical research, I am interested in learning a whole validation pipeline from a simple controlled lab environment to an uncontrolled online experiment. (2) Replicating this study will enhance my technical skills in using jsPsych and Javascript. (3) More importantly, the second part of the study involved implementing an adaptive algorithm to present stimuli, which matches my research interest. If my schedule allows, I am interested in comparing the original findings through the staircase mode with my replication results through the bayesian adaptive mode. 
+
+### Anticipated challenges
+
+The major challenge I anticipate is the time constraint. Implementing an adaptive visual crowding experiment might be time-consuming if the original code is not available. In addition, compared with the original online study that was available online for 15 months to collect data, I will not be able to replicate the whole findings in the last experiment (e.g., the difference in the viewing distance between people with and without dyslexia). 
+
+### Links
+
+Project repository (on Github): [AnyaWMa] https://github.com/psych251/li2020.git
+
+Original paper (as hosted in your repo): https://github.com/psych251/li2020/blob/main/original_paper/Li_et_al-2020-Scientific_Reports.pdf
+
+## Methods
+
+### Description of the steps required to reproduce the results
+
+Please describe all the steps necessary to reproduce the key result(s) of this study. 
+
+### Differences from original study
+
+Explicitly describe known differences in the analysis pipeline between the original paper and yours (e.g., computing environment). The goal, of course, is to minimize those differences, but differences may occur. Also, note whether such differences are anticipated to influence your ability to reproduce the original results.
+
+## Project Progress Check 1
+
+### Measure of success
+
+Please describe the outcome measure for the success or failure of your reproduction and how this outcome will be computed.
+
+
+### Pipeline progress
+
+Earlier in this report, you described the steps necessary to reproduce the key result(s) of this study. Please describe your progress on each of these steps (e.g., data preprocessing, model fitting, model evaluation).
+
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Key analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Reproduction Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the key analysis and assess whether you successfully reproduced it, partially reproduced it, or failed to reproduce it.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis of the dataset, (b) assessment of the meaning of the successful or unsuccessful reproducibility attempt - e.g., for a failure to reproduce the original findings, are the differences between original and present analyses ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the reproducibility attempt (if you contacted them).  None of these need to be long.
