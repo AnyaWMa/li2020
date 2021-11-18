@@ -1,5 +1,6 @@
 ---
-title: "Replication of the Online Visual Crowding Experiment Using the Virtual Chinrest by Li et al.(2020, Scientific Reports)"
+title: Replication of the Online Visual Crowding Experiment Using the Virtual Chinrest
+  by Li et al.(2020, Scientific Reports)
 author: "Wanjing Anya Ma wanjingm@stanford.edu"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -7,7 +8,10 @@ output:
     toc: yes
     toc_depth: 3
     toc_float:
-      collapsed: false
+      collapsed: no
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ## Introduction
@@ -16,7 +20,7 @@ Online experiments enable psychophysical researchers to study larger and more di
 
 ### Justification for choice of study
 
-I chose to replicate this study for three reasons. (1) As a new student of psychophysical research, I am interested in learning a whole validation pipeline from a simple controlled lab environment to an uncontrolled online experiment. Due to the time constraint, I will replicate the uncontrolled online experiment (Study 4) only. (2) Replicating this study will enhance my technical skills in using jsPsych and Javascript. (3) More importantly, the second part of the study involved implementing an adaptive algorithm to present stimuli, which matches my research interest. If my schedule allows, I am interested in comparing the original findings through the staircase mode with my replication results through the bayesian adaptive mode. 
+I chose to replicate this study for three reasons. (1) As a new student of psychophysical research, I am interested in learning a whole validation pipeline from a simple controlled lab environment to an uncontrolled online experiment. Due to the time constraint, I will replicate the uncontrolled online experiment (Study 4) only. (2) Replicating this study will enhance my technical skills in using jsPsych and Javascript. (3) More importantly, the second part of the study involved implementing an adaptive algorithm to present stimuli, which matches my research interest. 
 
 ### Anticipated challenges
 
@@ -32,20 +36,36 @@ Original paper (as hosted in your repo): https://github.com/psych251/li2020/blob
 
 ### Power Analysis
 
-[TO DO LATER] Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+[NEED ATTENTION] I am not sure how to interpret the effect size of the original paper. What is the weight? 
+
+```{r}
+library(esc)
+
+esc_mean_se(grp1m = 1.623,   # mean of group 1
+            grp1se = 0.592,  # standard error of group 1
+            grp1n = 742,    # sample in group 1
+            grp2m = 2.584,    # mean of group 2
+            grp2se = 1.162,  # standard error of group 2
+            grp2n = 280,    # sainmple in group 2
+            es.type = "d") # convert to SMD; use "g" for Hedges' g
+```
+
+```{r}
+library(MKpower)
+```
+```{r}
+## two-sample
+power.welch.t.test(delta = 0.961, sd1 = 0.592, sd2 = 1.163, power = 0.8)
+```
 
 ### Planned Sample
 
-[TO DO LATER] Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+In order to meet 80% power, I planned to have 16 participants for each condition, so there will be 32 participants in total. Only neurotypical, young adults (age range: 18-30) will be recruited in this replication study. 
 
 ### Experimental Design
 
 > "The online experiment was launched on the volunteer-based online experiment platform LabintheWild and advertised with the slogan “How accurate is your peripheral vision?” on the site itself as well as on social media. Experimental design. During each experimental session, we first presented the Virtual Chinrest experiment and used the results to calculate individual’s viewing distance and to calibrate the stimuli’s size and locations. Instead of creating stimuli (demonstrated in Fig. 5) using MATLAB, we created the stimuli as SVG on HTMLs and manipulated the stimuli using JavaScript. All the elements were created in a container with a width of 900 pixels on the webpage. In the blind spot test, the dot was drawn in red with a diameter of 30 pixels, and the fixation square was drawn in black with a side length of 30 pixels (Fig. 1b). Replicating the original crowding study30 in the unit of visual degrees, stimuli comprised four flankers — open circles with 1° diameter and a target — an open circle with a gap (target; an arc with reflex central angle of 330°). All stimuli were black and displayed on a white background (Fig. 5). Two conditions of target eccentricity (the center-to-center distance between the fixation mark at the center of the webpage and the target) were 4° and 6°. In each crowding experiment session, each participant was randomly assigned one target eccentricity, and the target eccentricity was fixed with the starting target-flanker distance being set as 1.3 times greater than half the eccentricity (3.9° for 6° eccentricity; 2.6° for 4° eccentricity).
 > During each crowding experiment session, the subsequent target-flanker distances (25 trials/steps in total) were controlled by the 1-up 3-down staircase procedure implemented in JavaScript [https://github.com/hadrienj/StaircaseJS]. On a given trial, the fixation mark was displayed first and remained on the webpage for the entire session. After 500 ms of fixation onset, the stimuli were displayed either to the left or the right of the fixation for 150 ms. Only the fixation remained on the webpage until the participant submitted a response by using the arrow keys on the keyboard to indicate the direction (up or down) of the target gap. No feedback was provided during the experiment. There was a 500 ms blank between a participant’s response and the beginning of the next trial. The visual crowding, defined as the minimal center-to-center distance between a target and the flankers (in degrees), was used to quantify the crowding effects when participants could report the target identity at certain accuracy. Since we are using a 1-up 3-down staircase procedure, participants should be able to correctly report the target identity 79.4% of times."
-
-Instead of using the 1-up 3-down staircase procedure, I decided to use QUEST (Watson & Pelli, 1983) staircases to generate the target-flanker distance for each trial. This change was intended to replicate the original study of the visual crowding experiment in “Optimizing Text for an Individual’s Visual System: The Contribution of Visual Crowding to Reading Difficulties” by Joo et al. (2018, Cortex). [Joo et al. (2018, Cortex)](https://www.sciencedirect.com/science/article/pii/S0010945218300947?via%3Dihub). The specific psychometric function re-fitting rules were described below: 
-
-> "We re-fitted the psychometric function using QUEST procedure by setting the threshold and the slope as free parameters. We excluded staircases in which threshold estimate was greater than the maximum flanker-target distance (6 or 10), which suggested that the staircase did not converge. We also excluded staircases with a threshold estimate being less than the minimum flanker-target distance (1) where the flankers and the target overlap... We averaged the threshold estimates of those remaining staircases to define each subject's critical spacing. Including staircases with threshold estimates <1 did not change the results."
 
 ### Procedure
 > "The experiment began with a brief overview of the study, an informed consent form approved by the University of Washington Institutional Review Board, and a voluntary demographic questionnaire, followed by the card task and the blind spot test with 5 trials to calculate participants’ viewing distances. Participants were then presented the instruction of the crowding tasks and a practice session with 5 trials. The main experiment was split into two blocks (two independent staircases, 25 trials each), and each was followed by another blind spot task with 3 trials. After the last blind spot test, participants were then given the opportunity to report on any technical difficulties, and to provide any other general comments or questions. The final page showed their personalized “crowding effect” in comparison to others. The entire study took 10–12 minutes to complete."
@@ -58,16 +78,30 @@ Instead of using the 1-up 3-down staircase procedure, I decided to use QUEST (Wa
 
 Here are three major differences between this replication study and the original study. 
 
+#### Experiment Implementation 
+The original study implemented the Virtual Chinrest and visual crowding experiment using JavaScript. Only part of the code used jsPsych library. In my replication, I will refer the high level idea of the original source code, but I decide to use the existing Virtual Chinrest jsPsych plugin and build the entire visual crowding experiment through jsPsych. The code, free from the original lab's coding framework, should be more concise and more accessible for future replication studies. 
+
 #### Sampling 
 The original experiment was deployed online for 15 months and completed 1198 times, and after data exclusion, the valid data contained 793 participants. The large and diverse sample size allowed the researchers to study how different covariates (eccentricity, gender, age, and with/without dyslexia) relate to the effect visual crowding. However, due to the time and financial constraints, this current replication tested the effect of eccentricity among 20-30 year-old, neurotypical participants only. The sample size was ~60. 
 
 #### Data Collection 
 The original study recruited participants on the volunteer-based experiment platform LabintheWild, while this replication project used Prolific, a crowdsourcing platform recruit participants with pay. Using Prolific may lead to higher quality data because participants are paid and it doesn't need to rely on participants' self-report whether they have completed the study before. 
 
-#### Adpative Algorithm
-As described above, instead of using the 1-up 3-down staircase procedure, I decided to use QUEST (Watson & Pelli, 1983) staircases to generate the target-flanker distance for each trial. This change should optimize the estimation of participant's critical spacing. 
+Data from the original study was written into the first author's MySQL database. However, I will use Pavlovia to host the experiment and store data directly into my GitLab. 
 
 ## Methods Addendum
+
+### Pilot A
+The Pilot A data includes a total of 6 participants (3 for each eccentricity condition). 
+
+1. Virtual Chinrest: two participants reported that the red dot did not go far enough to the left if the participant was too far away from the screen. 
+
+2. Instructions: One participants reported that there were a lot of instructions on the peripheral vision task page. She suggested "I would break it up in bullet points or present 1 and 2 on separate pages, reading long lines of instructions is not encouraging."
+
+3. Practice Trials: One participant said she would have a better idea of the experiment if she could have more practice trials. 
+
+To fix the problem 1, I need to check the jsPsych plugin code to adjust the movement of the red dot in the blind spot measurement trial. However, I will not resolve problem 2 and 3 to be faithful to the original study, although they are good suggestions. 
+
 
 ### Actual Sample
 
@@ -79,23 +113,176 @@ Any differences from what was described as the original plan, or “none”.
 
 ## Results
 
-### Data preparation
-
 Data preparation following the analysis plan. 
 
-I decided to follow the [data analysis using R](https://github.com/QishengLi/virtual_chinrest/blob/master/analysis/Exp_4_online_experiment_analysis.ipynb) provided by the first author. 
-	
-```{r include=F}
-### Data Preparation
+I decided to follow the [data analysis using R] (https://github.com/QishengLi/virtual_chinrest/blob/master/analysis/Exp_4_online_experiment_analysis.ipynb) provided by the first author. 
 
+#### Load Relevant Libraries and Functions	
+```{r include=F}
 #### Load Relevant Libraries and Functions
+library(data.table)
+library(readr)
+library(printr)
+library(readr)
+library(psych)
+library(tidyr)
+library(ggplot2)
+library(GGally)
+library(lmerTest)
+library(dplyr)
+library(plyr)
+library(stringr)
+
+```
 
 #### Import data
+```{r}
+### Data Preparation
+eccen4_myfiles = list.files(path = "../data/pilotA-eccen4" , pattern= "*.csv", full.names=TRUE)
+eccen4_df = ldply(eccen4_myfiles, read_csv)
+```
+```{r}
+
+eccen6_myfiles = list.files(path = "../data/pilotA-eccen6" , pattern= "*.csv", full.names=TRUE)
+eccen6_df = ldply(eccen6_myfiles, read_csv)
+```
 
 #### Data exclusion / filtering
-
-#### Prepare data for analysis - create columns etc.
+```{r}
+filtered_eccen4_df <- 
+  eccen4_df  %>%
+  drop_na(participantID) %>%
+  filter(correctRate > 0.0)
 ```
+```{r}
+filtered_eccen4_df <- subset(filtered_eccen4_df, select= c(participantID, eccentricity_deg, critical_spacing_deg, crowding_session, correctRate))
+```
+```{r}
+filtered_eccen6_df <- 
+  eccen6_df  %>%
+  drop_na(participantID) %>%
+  filter(correctRate > 0.0)
+```
+```{r}
+filtered_eccen6_df <- subset(filtered_eccen6_df, select= c(participantID, eccentricity_deg, critical_spacing_deg, crowding_session, correctRate))
+```
+```{r}
+visual_crowding <- rbind(filtered_eccen6_df, filtered_eccen4_df)
+```
+
+```{r}
+distance_eccen4_df <- 
+  eccen4_df  %>%
+  filter(grepl("end_trial", trialType))
+ 
+distance_eccen4_df <- subset(distance_eccen4_df, select= c(participantID,viewDistance_1, viewDistance_2, viewDistance_3 ))
+
+distance_eccen6_df <- 
+  eccen6_df  %>%
+  filter(grepl("end_trial", trialType))
+ 
+distance_eccen6_df <- subset(distance_eccen6_df, select= c(participantID,viewDistance_1, viewDistance_2, viewDistance_3 ))
+
+viewing_distance_df<- rbind(distance_eccen4_df,distance_eccen6_df)
+viewing_distance_df
+```
+
+```{r}
+viewing_distance_reshape_df <- reshape(data= viewing_distance_df, idvar="participantID",
+                         varying = c("viewDistance_1", "viewDistance_2", "viewDistance_3"),
+                         v.name=c("viewDistance"),direction="long", times = c(1,2,3))
+
+
+viewing_distance_reshape_df
+```
+
+### Visual Crowding Statistics
+```{r}
+#Mean, SD, Standard error of the mean (sem)
+visual_crowding_by <- visual_crowding %>% 
+  dplyr::group_by(eccentricity_deg) %>%
+  dplyr::summarise(mean = mean(critical_spacing_deg),sd = sd(critical_spacing_deg), sem = sd(critical_spacing_deg)/sqrt(length(critical_spacing_deg))) 
+
+#wilcoxon rank sum test
+wilcox.test(critical_spacing_deg~eccentricity_deg,data=visual_crowding)
+```
+
+#### Reproduce Figure 7a: 
+
+```{r}
+cr_bars <- aggregate(critical_spacing_deg~eccentricity_deg, data = visual_crowding, mean)
+cr_stderr <- visual_crowding %>% 
+  dplyr::group_by(eccentricity_deg) %>%
+  dplyr::summarise(sem = sd(critical_spacing_deg)/sqrt(length(critical_spacing_deg))) 
+cr_bars <- merge(cr_bars, cr_stderr, by=c('eccentricity_deg'))
+```
+```{r}
+ggplot(data=cr_bars, aes(x=as.factor(eccentricity_deg), y=critical_spacing_deg)) + 
+  geom_bar(stat="identity", position=position_dodge())  +
+  geom_errorbar(aes(ymin=critical_spacing_deg-sem, ymax=critical_spacing_deg+sem), width=.1, position=position_dodge()) + 
+  labs(x = "Eccentricity (deg)", y = "Visual Crowding (deg)") + 
+  theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=15), legend.text=element_text(size=10)) 
+```
+#### Reproduce Figure 7b: 
+```{r}
+visual_crowding_accuracy <- aggregate(correctRate~participantID, data = visual_crowding, mean)
+
+#histgram of participant accuracy
+ggplot(visual_crowding_accuracy, aes(x=correctRate)) + geom_histogram(aes(y=..density..), binwidth = 0.02, alpha=.8) +
+  geom_vline(aes(xintercept=mean(correctRate)), color="red", size=1) +
+  geom_density(alpha=.2, fill="grey") +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 5)) +
+  labs(title="", x="Percentage Correctness", y="Density") +
+  theme_grey(base_size = 15)
+
+#summary: mean, min, max
+summary(visual_crowding_accuracy$correctRate)
+```
+
+#### Reproduce Figure 7c: 
+```{r}
+#data summary
+viewing_distance_mean <- aggregate(viewDistance~participantID, data = viewing_distance_reshape_df, mean)
+summary(viewing_distance_reshape_df$viewDistance) #mean, min, max
+sd(viewing_distance_mean$viewDistance) # SD = 8.9
+```
+```{r}
+ggplot(viewing_distance_mean, aes(x=viewDistance)) + geom_histogram(aes(y=..density..), binwidth = 2, alpha=.8) +
+  geom_vline(aes(xintercept=mean(viewDistance)), color="red", size=1) +
+  geom_density(alpha=.2, fill="grey") +
+  labs(title="", x="Calculated Viewing Distance (cm)", y="Density") +
+  theme_grey(base_size = 15)
+```
+### Reproduce Figure 7d: 
+```{r}
+viewing_distance_sd <- aggregate(viewDistance~participantID, data = viewing_distance_reshape_df, sd)
+
+mean(viewing_distance_sd$viewDistance) #mean
+min(viewing_distance_sd$viewDistance) #min
+max(viewing_distance_sd$viewDistance) #max
+
+#draw Fig. 7d
+ggplot(viewing_distance_sd, aes(x=viewDistance)) + geom_histogram(aes(y=..density..), binwidth = 0.5, alpha=.8) +
+  geom_vline(aes(xintercept=mean(viewDistance)), color="red", size=1) +
+  geom_density(alpha=.2, fill="grey") +
+  labs(title="", x="SD of Calculated Viewing Distance (cm)", y="Density")+
+  theme_grey(base_size = 15)
+```
+### Reproduce Figure 7e: 
+Within-subject viewing distance ICC and pairwise correlation.
+```{r}
+#transfer the df from long to wide
+viewing_distance_wide <- spread(viewing_distance_reshape_df, time, viewDistance)
+names(viewing_distance_wide)[2:4] <- c('s1','s2','s3')
+
+#calculate ICC
+ICC(viewing_distance_wide[,c(2,3,4)],missing=TRUE,alpha=.05)
+
+#draw Fig. 7e
+ggpairs(viewing_distance_wide, columns = 2:4, upper = list(continuous = wrap("cor", size=7, color='black'))) +
+  theme(axis.text = element_text(size = 10))
+```
+
 
 ### Confirmatory analysis
 
