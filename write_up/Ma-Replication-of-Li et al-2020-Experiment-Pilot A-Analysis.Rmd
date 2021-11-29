@@ -82,7 +82,7 @@ Here are three major differences between this replication study and the original
 The original study implemented the Virtual Chinrest and visual crowding experiment using JavaScript. Only part of the code used jsPsych library. In my replication, I will refer the high level idea of the original source code, but I decide to use the existing Virtual Chinrest jsPsych plugin and build the entire visual crowding experiment through jsPsych. The code, free from the original lab's coding framework, should be more concise and more accessible for future replication studies. 
 
 #### Sampling 
-The original experiment was deployed online for 15 months and completed 1198 times, and after data exclusion, the valid data contained 793 participants. The large and diverse sample size allowed the researchers to study how different covariates (eccentricity, gender, age, and with/without dyslexia) relate to the effect visual crowding. However, due to the time and financial constraints, this current replication tested the effect of eccentricity among 18-30 year-old, neurotypical participants only. The sample size was ~40 (20 for each condition). 
+The original experiment was deployed online for 15 months and completed 1198 times, and after data exclusion, the valid data contained 793 participants. The large and diverse sample size allowed the researchers to study how different covariates (eccentricity, gender, age, and with/without dyslexia) relate to the effect visual crowding. However, due to the time and financial constraints, this current replication tested the effect of eccentricity among 20-30 year-old, neurotypical participants only. The sample size was ~60. 
 
 #### Data Collection 
 The original study recruited participants on the volunteer-based experiment platform LabintheWild, while this replication project used Prolific, a crowdsourcing platform recruit participants with pay. Using Prolific may lead to higher quality data because participants are paid and it doesn't need to rely on participants' self-report whether they have completed the study before. 
@@ -91,7 +91,7 @@ Data from the original study was written into the first author's MySQL database.
 
 ## Methods Addendum
 
-### Pilot A with Known Participants from Friends and Labmates 
+### Pilot A
 The Pilot A data includes a total of 6 participants (3 for each eccentricity condition). 
 
 1. Virtual Chinrest: two participants reported that the red dot did not go far enough to the left if the participant was too far away from the screen. 
@@ -102,35 +102,10 @@ The Pilot A data includes a total of 6 participants (3 for each eccentricity con
 
 To fix the problem 1, I need to check the jsPsych plugin code to adjust the movement of the red dot in the blind spot measurement trial. However, I will not resolve problem 2 and 3 to be faithful to the original study, although they are good suggestions. 
 
-### Pilot B with Unknown Participants from Prolific 
-1. Prescreening Criteria: 
-   a. Age 18-30
-   b. Language related disorder: No
-   c. Literacy Difficulty: No
-   d. Mild Cognitive Impairment/Dementia: No
-   e. Autism Spectrum Disorder: No
-   f. Normal Vision or Corrected Vision: Yes
-   g. Exclude participants from previous visual crowding studies: Yes
-   h: Prolific Approval Rate: 95%-100%
-   i: Confidential agreement: Yes
-
-2. I recruited 2 participants through Prolific for each condition for pilot B. 3 out of 4 participants completed the study. 
-
-3. Compared with the result of Pilot A, the Pilot B data got different number of participants between 2 conditions. This was expected for 2 reasons. 
-   
-   First, in an crowd sourcing environment, participants fall under the exclusion criteria will not excluded in the final analyses. 
-   
-   Second, the original paper specified that the display eccentricity should not exceeds 225mm after adjusting the stimuli based on participant's screen size and viewing distance. If exceeds under the the eccentricity 6° condition，participants will be automatically changed to receive the eccentricity 4° condition. If  the eccentricity 4° condition still exceeds, then the participant will be tested on 225mm mode. With this experimental constraint, I will expect more participants who are tested under eccentricity 4° condition although I counterbalance the two conditions at the beginning. It is noted that eccentricity 6° had 742 non-dyslexic participants while eccentricity 4° had 280 non-dyslexic participants in the original study. 
-
-### Exclusion Criteria 
-In my final analysis, I plan to exclude participants who spent less than 4 minutes in the entire study because they are likely to rush the experiment and input off-task responses. 
-
-Alternative Plan: If I exclude more than 3 participants in either condition, I will run the experiment with 10 more participants for each condition. 
 
 ### Actual Sample
 
 sample size, demographics, data exclusions based on rules spelled out in analysis plan
-
 
 ### Differences from pre-data collection methods plan
 
@@ -163,32 +138,52 @@ library(stringr)
 #### Import data
 ```{r}
 ### Data Preparation
-myfiles = list.files(path = "../data/pilotB-protected" , pattern= "*.csv", full.names=TRUE)
-df = ldply(myfiles, read_csv)
+eccen4_myfiles = list.files(path = "../data/pilotA-eccen4" , pattern= "*.csv", full.names=TRUE)
+eccen4_df = ldply(eccen4_myfiles, read_csv)
 ```
+```{r}
 
+eccen6_myfiles = list.files(path = "../data/pilotA-eccen6" , pattern= "*.csv", full.names=TRUE)
+eccen6_df = ldply(eccen6_myfiles, read_csv)
+```
 
 #### Data exclusion / filtering
 ```{r}
-filtered_df <- 
-  df  %>%
+filtered_eccen4_df <- 
+  eccen4_df  %>%
   drop_na(participantID) %>%
   filter(correctRate > 0.0)
 ```
 ```{r}
-visual_crowding <- subset(filtered_df, select= c(participantID, eccentricity_deg, critical_spacing_deg, crowding_session, correctRate))
+filtered_eccen4_df <- subset(filtered_eccen4_df, select= c(participantID, eccentricity_deg, critical_spacing_deg, crowding_session, correctRate))
 ```
 ```{r}
-visual_crowding
+filtered_eccen6_df <- 
+  eccen6_df  %>%
+  drop_na(participantID) %>%
+  filter(correctRate > 0.0)
+```
+```{r}
+filtered_eccen6_df <- subset(filtered_eccen6_df, select= c(participantID, eccentricity_deg, critical_spacing_deg, crowding_session, correctRate))
+```
+```{r}
+visual_crowding <- rbind(filtered_eccen6_df, filtered_eccen4_df)
 ```
 
 ```{r}
-distance_df <- 
-  df  %>%
+distance_eccen4_df <- 
+  eccen4_df  %>%
   filter(grepl("end_trial", trialType))
  
-viewing_distance_df <- subset(distance_df, select= c(participantID,viewDistance_1, viewDistance_2, viewDistance_3 ))
+distance_eccen4_df <- subset(distance_eccen4_df, select= c(participantID,viewDistance_1, viewDistance_2, viewDistance_3 ))
 
+distance_eccen6_df <- 
+  eccen6_df  %>%
+  filter(grepl("end_trial", trialType))
+ 
+distance_eccen6_df <- subset(distance_eccen6_df, select= c(participantID,viewDistance_1, viewDistance_2, viewDistance_3 ))
+
+viewing_distance_df<- rbind(distance_eccen4_df,distance_eccen6_df)
 viewing_distance_df
 ```
 
@@ -293,7 +288,7 @@ ggpairs(viewing_distance_wide, columns = 2:4, upper = list(continuous = wrap("co
 
 The analyses as specified in the analysis plan
 
-The major inference from the original paper I wanted to justify was "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.62°) and 6° (mean = 2.58°)" (Figure 7a). This part of analysis would be completed through Welch’s two sample t-test. 
+The major inference from the original paper I wanted to justify was "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.61°) and 6° (mean = 2.66°)" (Figure 7a). This part of analysis would be completed through Mann-Whitney U test. 
 
 ### Exploratory analyses
 
