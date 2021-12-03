@@ -1,0 +1,2448 @@
+"trial_type","trial_index","time_elapsed","internal_node_id","rt","response","success","stimulus","start_time","start_time_unix","item_width_mm","item_height_mm","item_width_px","px2mm","view_dist_mm","item_width_deg","px2deg","win_width_deg","win_height_deg","trialType","correct","participantID","criticalSpacing","criticalSpacing_deg","isLeft","isUp","isEccen4","eccentricity","eccentricity_deg","viewingDistanceMean","critical_spacing","critical_spacing_deg","crowding_session","correctRate","viewDistance_1","viewDistance_2","viewDistance_3"
+"pavlovia","0","17","0.0-0.0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"survey-text","1","19995","0.0-1.0","19953.29999999702","{""Q0"":""""}","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"fullscreen","2","26105","0.0-2.0","","","true","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","3","51059","0.0-3.0","24952.39999999851"," ","","<h1>Consent Form</h1>
+       <p>By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact us at stanfordpsych251@gmail.com. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation by closing the window, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+       <p>Press <b>any key</b> to start the experiment!</p>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","4","54424","0.0-4.0","3368.2999999970198"," ","","<h1>Welcome to the Visual Crowding Experiment!</h1>
+       <p>This test will take <b>10-12</b> minutes to complete.</p>
+       <p>Press any key to start the experiment!</p>","12/1/2021, 9:20:14 AM","1638343214494","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","5","74052","0.0-5.0","19626.90000000596","arrowdown","","<div> 
+<p> Before you begin this study, let&#39;s quickly test how far away you are sitting. You might know that vision tests at a doctor&#39;s practice often involve chinrests, the doctor basically asks you to sit away from a screen in a specific distance. We do this here with a <b>virtual chinrest</b>. </p>
+<p> Please press the <b>down</b> arrow to continue.
+</p>
+</div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"virtual-chinrest","6","296290","0.0-6.0","222231.1000000015","","","","","","85.6","53.98","343","4.01","542.8","9.016934500882025","38.039535494734736","35.91000737085961","20.189520981566748","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","7","411652","0.0-7.0","115359.5","arrowdown","","
+	<h2 class=""bolded-blue"">Now, you will take a peripheral vision test!</h2>
+<p> 
+	<b>
+		<font size=""140%"">1. </font>
+	</b>
+	<em><b>Please use both eyes for the following task.</b></em> First, you will see a screen (like the one in the image below) showing a <b>black dot</b> in the middle of the screen, with a group of circles displayed on either the <span class=""bolded-blue"">left</span> or <span class=""bolded-blue"">right</span> of the black dot for 150 ms. <span class=""bolded-blue"">Please make sure to focus on the black dot all the time!</span>
+
+	<div>
+		<img src=""example.png"" alt=""example"" style=""border: 2px solid black"" width=""600""/> 
+	</div>
+	
+	<b>
+		<font size=""140%"">2. </font>
+	</b>
+	Your task is to identify whether the opening of the <b class=""bolded-blue"">center circle</b> is upward by pressing UP or downward by pressing DOWN on your keyboard. The opening of the circle will only be upward or downward, not towards left or right.
+
+	<div>
+		<img src=""arrow_keys+.png"" alt=""arrows"" style=""border: 2px solid black"" width=""600""/>
+	</div>
+	<br>
+
+<p>Please press the <b>down</b> arrow key to start the <span class=""bolded-blue"">practice task</span> (this first practice task will not count toward your final results).</p>
+</p>
+","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","8","412168","0.0-8.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=NaN cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=NaN r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=NaN cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=NaN r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","9","412331","0.0-9.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","10","413033","0.0-10.0","700.5","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","practice_get_response","true","t6CGd8n4800pN4X3","126.4445","3.89","false","false","false","194.53","6","465.0280000000001","","","","","","",""
+"html-keyboard-response","11","413555","0.0-11.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","12","413718","0.0-12.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","13","414147","0.0-13.0","427.80000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","practice_get_response","true","t6CGd8n4800pN4X3","126.4445","3.89","false","false","false","194.53","6","465.0280000000001","","","","","","",""
+"html-keyboard-response","14","414657","0.0-14.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","15","414820","0.0-15.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","16","415020","0.0-16.0","199.70000000298023","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","practice_get_response","true","t6CGd8n4800pN4X3","126.4445","3.89","false","false","false","194.53","6","465.0280000000001","","","","","","",""
+"html-keyboard-response","17","415537","0.0-17.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","18","415691","0.0-18.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","19","415925","0.0-19.0","233.30000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","practice_get_response","true","t6CGd8n4800pN4X3","114.94954545454544","3.54","false","false","false","194.53","6","465.0280000000001","","","","","","",""
+"html-keyboard-response","20","416429","0.0-20.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","21","416593","0.0-21.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=919.0295867768594 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=488.4995867768595 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=710.0304132231405 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=279.5004132231405 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","22","416706","0.0-22.0","112.20000000298023","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=919.0295867768594 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=488.4995867768595 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=710.0304132231405 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=279.5004132231405 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","practice_get_response","false","t6CGd8n4800pN4X3","104.49958677685949","3.21","false","true","false","194.53","6","465.0280000000001","","","","","","",""
+"html-keyboard-response","23","423054","0.0-23.0","6346.20000000298","arrowdown","","<div> 
+<h2 class=""bolded-blue"">Well done!</h2>
+<p> Now that you have the hang of it, we&#39;ll start the study. This session has 25 trials and takes about 2 minute to complete. </p> 
+<p>If you are ready for the real deal, please press the <b>down</b> arrow to continue.
+</p>
+</div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","24","436411","0.0-24.0","13354.90000000596","arrowdown","","<div id=""continue""> 
+<p>Again, please keep the <b>full screen</b> mode for the best experience.</p>
+<p>Please do not move around and keep your eye on the black dot. Click <b>up</b> or <b>down</b> key on your keyboard to indicate the opening of the center circle. Make your best guess!</p>
+<p>Please press the <b>down</b> arrow key to start the session 1. </p>
+</div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","25","436922","0.0-25.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=529.9695867768595 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=488.4995867768595 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=320.97041322314055 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=279.5004132231405 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","26","437091","0.0-26.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","27","437551","0.0-27.0","458.5","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","126.4445","3.89","1","0","","",""
+"html-keyboard-response","28","438055","0.0-28.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","29","438208","0.0-29.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","30","438532","0.0-30.0","322.29999999701977","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","194.53","6","465.0280000000001","126.4445","3.89","1","0","","",""
+"html-keyboard-response","31","439040","0.0-31.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=940.9745 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=688.0854999999999 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","32","439194","0.0-32.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","33","439582","0.0-33.0","387.09999999403954","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","194.53","6","465.0280000000001","126.4445","3.89","1","0","","",""
+"html-keyboard-response","34","440095","0.0-34.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=551.9145000000001 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=510.4445 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=299.0255 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=257.5555 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","35","440258","0.0-35.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","36","440574","0.0-36.0","314.3999999985099","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","114.94954545454544","3.54","1","0","","",""
+"html-keyboard-response","37","441097","0.0-37.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=929.4795454545454 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=498.94954545454544 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=699.5804545454546 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=269.05045454545456 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","38","441260","0.0-38.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=529.9695867768595 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=488.4995867768595 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=320.97041322314055 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=279.5004132231405 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","39","441645","0.0-39.0","384.6000000014901","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=529.9695867768595 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=488.4995867768595 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=320.97041322314055 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=279.5004132231405 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","104.49958677685949","3.21","1","0","","",""
+"html-keyboard-response","40","442160","0.0-40.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=529.9695867768595 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=488.4995867768595 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=320.97041322314055 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=279.5004132231405 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","41","442314","0.0-41.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=520.4696243425996 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=478.99962434259953 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=330.4703756574005 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=289.00037565740047 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","42","442628","0.0-42.0","313.80000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=520.4696243425996 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=478.99962434259953 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=330.4703756574005 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=289.00037565740047 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","94.99962434259953","2.92","1","0","","",""
+"html-keyboard-response","43","443145","0.0-43.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=520.4696243425996 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=478.99962434259953 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=330.4703756574005 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=289.00037565740047 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","44","443298","0.0-44.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=900.8932948569086 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=470.3632948569086 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=728.1667051430913 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=297.6367051430914 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","45","443529","0.0-45.0","229.79999999701977","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=900.8932948569086 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=470.3632948569086 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=728.1667051430913 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=297.6367051430914 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","194.53","6","465.0280000000001","86.36329485690865","2.66","1","0","","",""
+"html-keyboard-response","46","444044","0.0-46.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=900.8932948569086 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=470.3632948569086 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=728.1667051430913 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=297.6367051430914 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","47","444198","0.0-47.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=893.0420862335533 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=462.5120862335533 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=736.0179137664467 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=305.4879137664467 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","48","444532","0.0-48.0","333.40000000596046","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=893.0420862335533 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=462.5120862335533 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=736.0179137664467 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=305.4879137664467 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","194.53","6","465.0280000000001","78.51208623355332","2.41","1","0","","",""
+"html-keyboard-response","49","445045","0.0-49.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=893.0420862335533 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=462.5120862335533 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=736.0179137664467 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=305.4879137664467 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","50","445200","0.0-50.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=885.9046238486848 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=455.37462384868485 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=743.1553761513152 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=312.62537615131515 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","51","445496","0.0-51.0","295","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=885.9046238486848 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=455.37462384868485 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=743.1553761513152 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=312.62537615131515 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","194.53","6","465.0280000000001","71.37462384868483","2.19","1","0","","",""
+"html-keyboard-response","52","446000","0.0-52.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=885.9046238486848 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=455.37462384868485 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=743.1553761513152 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=312.62537615131515 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","53","446163","0.0-53.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=879.4160216806225 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=448.88602168062255 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=749.6439783193774 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=319.11397831937745 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","54","446562","0.0-54.0","397.79999999701977","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=879.4160216806225 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=448.88602168062255 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=749.6439783193774 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=319.11397831937745 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","64.88602168062258","1.99","1","0","","",""
+"html-keyboard-response","55","447065","0.0-55.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=879.4160216806225 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=448.88602168062255 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=749.6439783193774 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=319.11397831937745 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","56","447218","0.0-56.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=484.4572924369296 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=442.9872924369296 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=366.48270756307045 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=325.0127075630704 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","57","447519","0.0-57.0","299.69999999552965","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=484.4572924369296 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=442.9872924369296 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=366.48270756307045 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=325.0127075630704 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","194.53","6","465.0280000000001","58.98729243692961","1.81","1","0","","",""
+"html-keyboard-response","58","448034","0.0-58.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=484.4572924369296 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=442.9872924369296 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=366.48270756307045 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=325.0127075630704 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","59","448204","0.0-59.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=479.0948113062997 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=437.62481130629965 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=371.8451886937004 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=330.37518869370035 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","60","448434","0.0-60.0","229.20000000298023","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=479.0948113062997 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=437.62481130629965 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=371.8451886937004 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=330.37518869370035 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","false","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","53.62481130629964","1.65","1","0","","",""
+"html-keyboard-response","61","448936","0.0-61.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=479.0948113062997 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=437.62481130629965 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=371.8451886937004 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=330.37518869370035 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","62","449105","0.0-62.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=495.1822546981896 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=453.71225469818955 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=355.7577453018105 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=314.28774530181045 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","63","449488","0.0-63.0","382.59999999403954","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=495.1822546981896 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=355.7577453018105 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","69.71225469818954","2.14","1","0","","",""
+"html-keyboard-response","64","450007","0.0-64.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=495.1822546981896 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=355.7577453018105 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","65","450170","0.0-65.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","66","450588","0.0-66.0","417.70000000298023","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","69.71225469818954","2.14","1","0","","",""
+"html-keyboard-response","67","451108","0.0-67.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","68","451271","0.0-68.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","69","451667","0.0-69.0","395.29999999701977","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","69.71225469818954","2.14","1","0","","",""
+"html-keyboard-response","70","452172","0.0-70.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=884.2422546981895 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=453.71225469818955 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.8177453018104 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=314.28774530181045 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","71","452326","0.0-71.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=877.9047769983541 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=447.37477699835415 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=751.1552230016458 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=320.62522300164585 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","72","452651","0.0-72.0","323.79999999701977","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=877.9047769983541 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=447.37477699835415 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=751.1552230016458 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=320.62522300164585 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","63.37477699835412","1.95","1","0","","",""
+"html-keyboard-response","73","453159","0.0-73.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=877.9047769983541 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=447.37477699835415 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=751.1552230016458 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=320.62522300164585 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","74","453312","0.0-74.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=872.1434336348674 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=441.61343363486736 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=756.9165663651326 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=326.38656636513264 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","75","453730","0.0-75.0","416.1000000014901","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=872.1434336348674 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=441.61343363486736 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=756.9165663651326 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=326.38656636513264 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","57.61343363486738","1.77","1","0","","",""
+"html-keyboard-response","76","454244","0.0-76.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=872.1434336348674 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=441.61343363486736 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=756.9165663651326 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=326.38656636513264 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","77","454413","0.0-77.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=477.84584875897036 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=436.37584875897033 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=373.0941512410297 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=331.62415124102967 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","78","455327","0.0-78.0","913.3000000044703","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=477.84584875897036 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=436.37584875897033 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=373.0941512410297 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=331.62415124102967 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","52.375848758970335","1.61","1","0","","",""
+"html-keyboard-response","79","455830","0.0-79.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=477.84584875897036 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=436.37584875897033 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=373.0941512410297 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=331.62415124102967 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","80","455993","0.0-80.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=473.0844079627003 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=431.6144079627003 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=377.85559203729974 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=336.3855920372997 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","81","456472","0.0-81.0","478.3999999985099","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=473.0844079627003 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=431.6144079627003 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=377.85559203729974 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=336.3855920372997 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","194.53","6","465.0280000000001","47.6144079627003","1.46","1","0","","",""
+"html-keyboard-response","82","456979","0.0-82.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=473.0844079627003 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=431.6144079627003 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=377.85559203729974 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=336.3855920372997 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,400.2230225374025 420.9065448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","83","457133","0.0-83.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=857.8158254206367 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=427.2858254206366 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=771.2441745793633 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=340.7141745793634 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","84","457569","0.0-84.0","434.70000000298023","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=857.8158254206367 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=427.2858254206366 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=771.2441745793633 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=340.7141745793634 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","43.285825420636634","1.33","1","0","","",""
+"html-keyboard-response","85","458080","0.0-85.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=857.8158254206367 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=427.2858254206366 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=771.2441745793633 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=340.7141745793634 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","86","458234","0.0-86.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=853.8807503823969 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=423.35075038239694 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=775.1792496176031 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=344.64924961760306 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","87","458588","0.0-87.0","353.29999999701977","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=853.8807503823969 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=423.35075038239694 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=775.1792496176031 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=344.64924961760306 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","194.53","6","465.0280000000001","39.35075038239694","1.21","1","0","","",""
+"html-keyboard-response","88","459097","0.0-88.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=853.8807503823969 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=423.35075038239694 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=775.1792496176031 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=344.64924961760306 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,367.7769774625975 809.9665448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","89","459252","0.0-89.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=814.53 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=850.3034094385426 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=419.77340943854267 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=778.7565905614573 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=348.22659056145733 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","90","459651","0.0-90.0","397.3999999985099","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=850.3034094385426 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=419.77340943854267 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=778.7565905614573 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=348.22659056145733 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","194.53","6","465.0280000000001","35.77340943854267","1.1","1","0","","",""
+"html-keyboard-response","91","460153","0.0-91.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=850.3034094385426 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=419.77340943854267 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=778.7565905614573 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=814.53 cy=348.22659056145733 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""814.53,384 819.0934551246586,400.2230225374025 809.9665448753414,400.2230225374025"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","92","460322","0.0-92.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=457.9912813077661 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.52128130776606 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=392.94871869223397 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.47871869223394 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","93","460825","0.0-93.0","501.6000000014901","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=457.9912813077661 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.52128130776606 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=392.94871869223397 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.47871869223394 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","194.53","6","465.0280000000001","32.52128130776606","1","1","0","","",""
+"html-keyboard-response","94","461339","0.0-94.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=457.9912813077661 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.52128130776606 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=392.94871869223397 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.47871869223394 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","95","461502","0.0-95.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=457.916045074805 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.446045074805 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=393.023954925195 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.553954925195 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","96","462013","0.0-96.0","510.79999999701977","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=457.916045074805 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.446045074805 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=393.023954925195 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.553954925195 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","194.53","6","465.0280000000001","32.44604507480501","1","1","0","","",""
+"html-keyboard-response","97","462526","0.0-97.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=457.916045074805 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.446045074805 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=393.023954925195 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.553954925195 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","98","462689","0.0-98.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=425.47 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=457.916045074805 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.446045074805 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=393.023954925195 cy=384 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.553954925195 r=16.223022537402507 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","99","463048","0.0-99.0","357.8999999985099","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=11.356115776181754 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=457.916045074805 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=416.446045074805 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=393.023954925195 cy=384 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=425.47 cy=351.553954925195 r=16.223022537402507 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""425.47,384 430.03345512465864,367.7769774625975 420.9065448753414,367.7769774625975"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","194.53","6","465.0280000000001","32.44604507480501","1","1","0.96","","",""
+"html-keyboard-response","100","472196","0.0-100.0","9147.29999999702","arrowdown","","<div id=""continue""> 
+<h2 class=""bolded-blue"">Great Job! You have completed half of the study!</h2>
+<p>Before you start the session 2, let&#39;s measure your viewing distance again using the virtual chinrest.</p>
+<p>Please press the <b>down</b> arrow key to continue. </p>
+</div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"virtual-chinrest","101","566020","0.0-101.0","93823.10000000149","","","","","","85.6","53.98","343","4.01","629.55","7.778545680695008","44.09564642028986","30.978114868307234","17.41668537251827","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","102","580668","0.0-102.0","14646.20000000298","arrowdown","","<div><h2 class=""bolded-blue"">Alright, let&#39;s do the peripheral vision test one more time!</h2>
+<p>Please do not move around and keep your eye on the <b>black dot</b> all the time. Click <b>up</b> or <b>down</b> to indicate the opening
+    of the center circle. The test is difficult for everyone, so if you are not sure, just take your best guess! </p> 
+    <p>Now, press the <b>down</b> arrow key to start the task when you are ready!</p></div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","103","581175","0.0-103.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=473.626045074805 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=416.446045074805 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=408.733954925195 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=351.553954925195 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","104","581329","0.0-104.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=557.413 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=500.233 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=324.947 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=267.767 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","105","581733","0.0-105.0","403.3999999985099","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=557.413 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=324.947 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","116.233","2.6","2","0","","",""
+"html-keyboard-response","106","582245","0.0-106.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=557.413 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=324.947 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","107","582408","0.0-107.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","108","582852","0.0-108.0","442.6000000014901","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","116.233","2.6","2","0","","",""
+"html-keyboard-response","109","583363","0.0-109.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","110","583532","0.0-110.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","111","583976","0.0-111.0","442.69999999552965","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","116.233","2.6","2","0","","",""
+"html-keyboard-response","112","584480","0.0-112.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=915.0529999999999 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=500.233 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=682.587 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=267.767 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","113","584633","0.0-113.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=546.8463636363637 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=489.6663636363636 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=335.51363636363635 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=278.3336363636364 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","114","585076","0.0-114.0","441.29999999701977","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=546.8463636363637 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=489.6663636363636 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=335.51363636363635 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=278.3336363636364 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","105.66636363636363","2.36","2","0","","",""
+"html-keyboard-response","115","585582","0.0-115.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=546.8463636363637 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=489.6663636363636 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=335.51363636363635 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=278.3336363636364 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","116","585736","0.0-116.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=537.2403305785124 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=480.0603305785124 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=345.11966942148763 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=287.9396694214876 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","117","586082","0.0-117.0","345.6000000014901","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=537.2403305785124 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=480.0603305785124 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=345.11966942148763 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=287.9396694214876 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","96.06033057851238","2.15","2","0","","",""
+"html-keyboard-response","118","586599","0.0-118.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=537.2403305785124 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=480.0603305785124 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=345.11966942148763 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=287.9396694214876 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","119","586752","0.0-119.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=886.1475732531931 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=471.32757325319307 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=711.4924267468068 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=296.67242674680693 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","120","586999","0.0-120.0","245.70000000298023","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=886.1475732531931 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=471.32757325319307 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=711.4924267468068 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=296.67242674680693 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","87.32757325319307","1.95","2","0","","",""
+"html-keyboard-response","121","587515","0.0-121.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=886.1475732531931 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=471.32757325319307 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=711.4924267468068 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=296.67242674680693 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","122","587669","0.0-122.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=520.5687029574483 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=463.38870295744823 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=361.7912970425518 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=304.61129704255177 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","123","587993","0.0-123.0","322.3999999985099","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=520.5687029574483 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=463.38870295744823 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=361.7912970425518 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=304.61129704255177 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","79.38870295744823","1.77","2","0","","",""
+"html-keyboard-response","124","588502","0.0-124.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=520.5687029574483 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=463.38870295744823 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=361.7912970425518 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=304.61129704255177 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","125","588656","0.0-125.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=870.9915481431347 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=456.1715481431347 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=726.6484518568652 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=311.8284518568653 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","126","588989","0.0-126.0","332.5","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=870.9915481431347 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=456.1715481431347 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=726.6484518568652 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=311.8284518568653 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","72.17154814313474","1.61","2","0","","",""
+"html-keyboard-response","127","589503","0.0-127.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=870.9915481431347 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=456.1715481431347 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=726.6484518568652 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=311.8284518568653 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","128","589656","0.0-128.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=864.4304983119406 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=449.61049831194066 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=733.2095016880593 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=318.38950168805934 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","129","589983","0.0-129.0","325.5","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=864.4304983119406 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=449.61049831194066 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=733.2095016880593 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=318.38950168805934 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","65.61049831194067","1.47","2","0","","",""
+"html-keyboard-response","130","590488","0.0-130.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=864.4304983119406 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=449.61049831194066 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=733.2095016880593 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=318.38950168805934 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","131","590642","0.0-131.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=858.4659075563096 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=443.6459075563097 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=739.1740924436903 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=324.3540924436903 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","132","590986","0.0-132.0","343.09999999403954","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=858.4659075563096 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=443.6459075563097 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=739.1740924436903 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=324.3540924436903 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","59.6459075563097","1.33","2","0","","",""
+"html-keyboard-response","133","591490","0.0-133.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=858.4659075563096 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=443.6459075563097 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=739.1740924436903 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=324.3540924436903 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","134","591654","0.0-134.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=853.0435523239179 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=438.2235523239179 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.596447676082 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=329.7764476760821 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","135","591957","0.0-135.0","301.6000000014901","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=853.0435523239179 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=438.2235523239179 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.596447676082 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=329.7764476760821 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","54.22355232391791","1.21","2","0","","",""
+"html-keyboard-response","136","592460","0.0-136.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=853.0435523239179 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=438.2235523239179 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=744.596447676082 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=329.7764476760821 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","137","592623","0.0-137.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=490.474138476289 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=433.294138476289 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=391.885861523711 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=334.705861523711 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","138","592911","0.0-138.0","286.29999999701977","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=490.474138476289 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=433.294138476289 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=391.885861523711 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=334.705861523711 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","false","t6CGd8n4800pN4X3","","","true","true","false","178.82","4","639.8966666666666","49.294138476289","1.1","2","0","","",""
+"html-keyboard-response","139","593424","0.0-139.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=490.474138476289 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=433.294138476289 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=391.885861523711 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=334.705861523711 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","140","593579","0.0-140.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","141","593986","0.0-141.0","406.80000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","64.0823800191757","1.43","2","0","","",""
+"html-keyboard-response","142","594496","0.0-142.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","143","594649","0.0-143.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","144","595044","0.0-144.0","393.8999999985099","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","64.0823800191757","1.43","2","0","","",""
+"html-keyboard-response","145","595550","0.0-145.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","146","595712","0.0-146.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","147","596017","0.0-147.0","303.3999999985099","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","64.0823800191757","1.43","2","0","","",""
+"html-keyboard-response","148","596529","0.0-148.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=862.9023800191757 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=448.08238001917573 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=734.7376199808242 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=319.91761998082427 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","149","596683","0.0-149.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=499.4367091083416 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=442.2567091083415 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=382.92329089165844 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=325.7432908916585 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","150","597440","0.0-150.0","756.3999999985099","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=499.4367091083416 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=442.2567091083415 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=382.92329089165844 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=325.7432908916585 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","178.82","4","639.8966666666666","58.25670910834154","1.3","2","0","","",""
+"html-keyboard-response","151","597953","0.0-151.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=499.4367091083416 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=442.2567091083415 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=382.92329089165844 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=325.7432908916585 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","152","598116","0.0-152.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=494.14064464394687 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=436.96064464394686 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=388.21935535605314 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=331.03935535605314 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","153","599035","0.0-153.0","918.5999999940395","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=494.14064464394687 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=436.96064464394686 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=388.21935535605314 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=331.03935535605314 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","true","false","178.82","4","639.8966666666666","52.96064464394685","1.18","2","0","","",""
+"html-keyboard-response","154","599556","0.0-154.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=494.14064464394687 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=436.96064464394686 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=388.21935535605314 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=331.03935535605314 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","155","599718","0.0-155.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=846.9660405854062 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=432.14604058540624 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=750.6739594145937 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=335.85395941459376 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","156","600337","0.0-156.0","617.5","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=846.9660405854062 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=432.14604058540624 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=750.6739594145937 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=335.85395941459376 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","48.146040585406226","1.08","2","0","","",""
+"html-keyboard-response","157","600857","0.0-157.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=846.9660405854062 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=432.14604058540624 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=750.6739594145937 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=335.85395941459376 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","158","601020","0.0-158.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","159","601640","0.0-159.0","619.3000000044703","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","160","602159","0.0-160.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","161","602322","0.0-161.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","162","602790","0.0-162.0","466.80000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","163","603292","0.0-163.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","164","603461","0.0-164.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","165","604100","0.0-165.0","637.6999999955297","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","166","604610","0.0-166.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","167","604763","0.0-167.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","168","605099","0.0-168.0","335","arrowup","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","true","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","169","605611","0.0-169.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,361.6764882008351 792.5405077484538,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","170","605764","0.0-170.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=798.8199999999999 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","171","606130","0.0-171.0","364.80000000447035","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","false","false","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","172","606643","0.0-172.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=843.4670235983298 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=754.1729764016701 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=798.8199999999999 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""798.8199999999999,384 805.099492251546,406.3235117991649 792.5405077484538,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","173","606797","0.0-173.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","174","607616","0.0-174.0","817.5","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","false","t6CGd8n4800pN4X3","","","true","true","false","178.82","4","639.8966666666666","44.64702359832986","1","2","0","","",""
+"html-keyboard-response","175","608130","0.0-175.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=485.82702359832984 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=428.64702359832984 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=396.53297640167017 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=339.35297640167016 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,361.6764882008351 434.9005077484539,361.6764882008351"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","176","608284","0.0-176.0","null","null","","
+    <div style="" display: block;  position: relative;"">
+    <svg width=1366 height=768>
+    
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=441.18 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=499.2211306778288 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=442.04113067782885 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=383.1388693221712 cy=384 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=325.95886932217115 r=22.32351179916493 stroke=""black"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""white"" stroke-width=""3"" fill = ""white"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","stimulus","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","177","608815","0.0-177.0","541","arrowdown","","
+    <div style="" display: block;  position: relative;"">
+    
+    <svg width=1366 height=768>
+    <circle cx=620 cy=384 r=15.62645825941545 stroke=""black"" stroke-width=""1"" fill=""black"" />
+    <circle cx=499.2211306778288 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=442.04113067782885 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=383.1388693221712 cy=384 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <circle cx=441.18 cy=325.95886932217115 r=22.32351179916493 stroke=""none"" stroke-width=""1.5"" fill=""none"" />
+    <polygon points = ""441.18,384 447.4594922515461,406.3235117991649 434.9005077484539,406.3235117991649"" stroke=""none"" stroke-width=""3"" fill = ""none"" />
+    
+    </svg>
+    </div>
+        ","","","","","","","","","","","","get_response","true","t6CGd8n4800pN4X3","","","true","false","false","178.82","4","639.8966666666666","58.04113067782882","1.3","2","0.92","","",""
+"html-keyboard-response","178","616239","0.0-178.0","7422.70000000298","arrowdown","","<div id=""continue""> 
+<h2 class=""bolded-blue"">Almost there!</h2>
+    <p>Please do another blind spot test for our record. We promise this will be the last one!</p>
+    <p>Please press the <b>down</b> arrow key to continue. </p>
+</div>","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"virtual-chinrest","179","678053","0.0-179.0","61803","","","","","","85.6","53.98","340","3.97","632.13","7.746894862182193","43.888552258501505","31.1242893580614","17.49886839457625","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","180","697436","0.0-180.0","19381","arrowdown","","<div> 
+<h2>Congratulations! You have completed the entire study! Thank you for your participation!</h2>
+<p>The task you completed in this study (a replication of [1]) estimates your level of <i>visual crowding</i>, which affects how accurately you can see in your peripheral vision [1,2]. </p>
+<p>Please press the <b>down</b> key to get the completion code. </p>
+
+</div>","","","","","","","","","","","","end_trial","","t6CGd8n4800pN4X3","","","","","","","","","","","","","46.503","63.99","65.347"
+"fullscreen","181","697439","0.0-181.0","","","true","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"html-keyboard-response","182","716926","0.0-182.0","19485.89999999851","arrowdown","","<div> 
+<h2><i style=""background-color:tomato""> 656AE0F3 </i></h2>
+<p>Please make sure to <b>copy and/or record</b> the completion code above. This page will be your only time to see the code.</p>
+<br>
+<h2>Press the <i style=""background-color:yellow""> down </i> key to end the study. If you can see a white screen, then your results should be recorded! If not, please press down key again! </h2>
+<br>
+<p>Thank you!</p>
+</div>","","","","","","","","","","","","completion_code","","","","","","","","","","","","","","","","",""
