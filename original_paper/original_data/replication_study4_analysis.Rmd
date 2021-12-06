@@ -1,0 +1,105 @@
+---
+title: "replication_analysis_li2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+library(readr)
+library(psych)
+library(tidyr)
+library(ggplot2)
+library(GGally)
+library(lmerTest)
+library(dplyr)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+#sem: calculate standard error from the mean
+sem <- function(x) sd(x)/sqrt(length(x))
+
+#conversion between radian and degree
+rad2deg <- function(rad) {(rad * 180) / (pi)}
+deg2rad <- function(deg) {(deg * pi) / (180)}
+```
+```{r}
+visual_crowding = read_csv('../data/7ab_visual_crowding.csv')
+```
+
+```{r}
+#View(visual_crowding_dyslexia)
+```
+
+```{r}
+#Mean
+
+#Mean
+aggregate(critical_spacing_deg~eccentricity_deg, data = visual_crowding, mean)
+
+#SD
+aggregate(critical_spacing_deg~eccentricity_deg, data = visual_crowding, sd)
+
+#Standard error of the mean (sem)
+#aggregate(critical_spacing_deg~eccentricity_deg, data = visual_crowding, sem)
+
+#wilcoxon rank sum test
+wilcox.test(critical_spacing_deg~eccentricity_deg,data=visual_crowding)
+
+```
+
+```{r}
+visual_crowding_dyslexia <- read_csv('../data/tab2_visual_crowding_dyslexia.csv')
+#stats for Fig. 7a
+aggregate(critical_spacing_deg~eccentricity_deg+dyslexia, data = visual_crowding_dyslexia, mean)
+```
+
+
+```{r}
+#visual_crowding%>% cohens_d(critical_spacing_deg ~ eccentricity_deg , var.equal = FALSE)
+```
+```{r}
+aggregate(critical_spacing_deg~eccentricity_deg+dyslexia, data = visual_crowding_dyslexia, sum)
+count(visual_crowding_dyslexia, eccentricity_deg, dyslexia)
+```
+
+```{r}
+current_visual_crowding <- visual_crowding_dyslexia %>%
+  filter(dyslexia == 0)
+
+#current_visual_crowding%>% cohens_d(critical_spacing_deg ~ eccentricity_deg , var.equal = FALSE)
+```
+```{r}
+#wilcoxon rank sum test
+wilcox.test(critical_spacing_deg~eccentricity_deg,data=current_visual_crowding)
+
+```
+```{r}
+ eccen4 <- current_visual_crowding %>%
+  filter(eccentricity_deg == 4.0) %>%
+  pull(critical_spacing_deg)
+eccen6 <- current_visual_crowding %>%
+  filter(eccentricity_deg == 6.0) %>%
+  pull(critical_spacing_deg)
+# Compute t-test
+res <- t.test(eccen4, eccen6)
+res
+```
+
