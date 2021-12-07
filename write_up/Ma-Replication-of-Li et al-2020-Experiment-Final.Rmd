@@ -223,7 +223,9 @@ viewing_distance_reshape_df <- reshape(data= viewing_distance_df, idvar="partici
 
 #### Figure 7a: 
 ##### Visual crowding in two eccentricity (4 vs. 6) conditions
-The major inference from the original paper I wanted to justify was "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.62°) and 6° (mean = 2.58°)" (Figure 7a). 
+The major inference from the original paper I wanted to justify was: 
+> "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.62°) and 6° (mean = 2.58°)" (Figure 7a). 
+
 ```{r}
 #Mean
 aggregate(critical_spacing_deg~eccentricity_deg, data = visual_crowding, mean)
@@ -278,7 +280,7 @@ replication_plot_7a <- ggplot(data=cr_bars, aes(x=as.factor(eccentricity_deg), y
   geom_bar(stat="identity", position=position_dodge(), width = 0.25, fill = "blue")  +
   geom_errorbar(aes(ymin=critical_spacing_deg-sem, ymax=critical_spacing_deg+sem), width=.1, position=position_dodge()) + 
   labs(x = "Eccentricity (deg)", y = "Visual Crowding (deg)") + 
-  theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=15), legend.text=element_text(size=10)) 
+  theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=15), legend.text=element_text(size=10))+ coord_cartesian(ylim=c(0,3.5))
 ```
 ```{r include = FALSE}
 #Load original data
@@ -301,11 +303,12 @@ original_plot_7a <- ggplot(data=original_cr_bars, aes(x=as.factor(eccentricity_d
   labs(x = "Eccentricity (deg)", y = "Visual Crowding (deg)") +
   scale_fill_manual("", labels = c("Non-dyslexic", "Dyslexic"), values=c("blue2","orange")) +
   theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=15), legend.text=element_text(size=10)) +
-  theme(legend.position = c(0.25, 0.9))
+  theme(legend.position = c(0.25, 0.9)) + coord_cartesian(ylim=c(0,3.5))
+
 ```
 
-Side-by-side graph:
 ```{r}
+#Side-by-side graph:
 # compare 7a
 plot_grid(original_plot_7a, replication_plot_7a, labels = c('Li et al., 2020', 'Ma, 2021 (Replication)'))
 ```
@@ -346,7 +349,7 @@ replication_plot_7b <- ggplot(visual_crowding_accuracy, aes(x=correctRate)) + ge
   scale_x_continuous(breaks = scales::pretty_breaks(n = 5)) +
   labs(title="", x="Percentage Correctness", y="Density") +
   theme_grey(base_size = 15) + 
-  theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10))
+  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10)) + coord_cartesian(ylim=c(0,10.0))
 
 #summary: mean, min, max
 summary(visual_crowding_accuracy$correctRate)
@@ -368,7 +371,7 @@ original_plot_7c <- ggplot(original_viewing_distance_mean, aes(x=viewDistance)) 
   geom_density(alpha=.2, fill="grey") +
   labs(title="", x="Calculated Viewing Distance (cm)", y="Density") +
   theme_grey(base_size = 15) +   theme_grey(base_size = 15) + 
-  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10))
+  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10)) +  coord_cartesian(ylim=c(0,0.08))
 ```
 
 ```{r}
@@ -383,7 +386,7 @@ replication_plot_7c <- ggplot(viewing_distance_mean, aes(x=viewDistance)) + geom
   geom_density(alpha=.2, fill="grey") +
   labs(title="", x="Calculated Viewing Distance (cm)", y="Density") +
   theme_grey(base_size = 15) + 
-  theme(axis.text=element_text(size=14, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10))
+  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10)) + coord_cartesian(ylim=c(0,0.08))
 ```
 
 ```{r}
@@ -405,7 +408,7 @@ original_plot_7d <- ggplot(original_viewing_distance_sd, aes(x=viewDistance)) + 
   labs(title="", x="SD of Calculated Viewing Distance (cm)", y="Density")+
   theme_grey(base_size = 15) + 
     theme_grey(base_size = 15) + 
-  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10))
+  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10)) +  coord_cartesian(ylim=c(0,0.5))
 
 ```
 
@@ -418,7 +421,7 @@ replication_plot_7d <- ggplot(viewing_distance_sd, aes(x=viewDistance)) + geom_h
   geom_density(alpha=.2, fill="grey") +
   labs(title="", x="SD of Calculated Viewing Distance (cm)", y="Density")+
   theme_grey(base_size = 15) + 
-  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10))
+  theme(axis.text=element_text(size=10, color='black'), axis.title=element_text(size=12), legend.text=element_text(size=10)) + coord_cartesian(ylim=c(0,0.5))
 ```
 
 ```{r}
@@ -475,7 +478,7 @@ original_plot_age <- ggplot(original_visual_crowding_age, aes(x=age)) + geom_his
   geom_density(alpha=.2, fill="grey") +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 5)) +
   labs(title="", x="age", y="Density") +
-  theme_grey(base_size = 15)
+  theme_grey(base_size = 15) 
 
 #summary: mean, min, max
 summary(original_visual_crowding_age$age)
@@ -502,35 +505,25 @@ plot_grid(original_plot_age, replication_plot_age, labels = c('Li et al., 2020',
 
 #### Relationship between age and visual crowding effect
 
-Original: 
+##### Original (Li et al., 2020)
 ```{r}
 original_visual_crowding_no_dyslexia <- original_visual_crowding_no_dyslexia %>% 
   convert(chr(eccentricity_deg))
 
-#convert_visual_crowding
-
-#original_plot_vc <-
 ggplot(original_visual_crowding_no_dyslexia, aes(x=age, y=critical_spacing_deg, color=eccentricity_deg,shape = eccentricity_deg)) +
   geom_point() + 
   geom_smooth(method=lm)
-
 ```
 
-Replication: 
+##### Replication (Ma, 2021)
 ```{r}
 convert_visual_crowding <- visual_crowding %>% 
   convert(chr(eccentricity_deg))
 
-#convert_visual_crowding
-
-#replication_plot_vc <-
-
 ggplot(convert_visual_crowding, aes(x=age, y=critical_spacing_deg, color=eccentricity_deg,shape = eccentricity_deg)) +
   geom_point() + 
   geom_smooth(method=lm)
-
 ```
-
 
 ## Discussion
 
@@ -538,6 +531,42 @@ ggplot(convert_visual_crowding, aes(x=age, y=critical_spacing_deg, color=eccentr
 
 Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
 
+The major inference from the original paper I wanted to justify was: 
+> "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.62°) and 6° (mean = 2.58°)" (Figure 7a). 
+
+Through a non-parametric Mann-Whitney U test, I replicated the significant difference (W = 390, p-value < 0.05) between the target eccentricity of 4° (mean = 1.59, sd = 0.68) and 6° (mean = 1.89, sd = 0.90). However, I failed to replicate the difference between the two conditions is using a parametric Welch's two sample t-test (t(31.997) = -1.4, p = 0.16, d = - 0.38). Moreover, the mean (mean = 1.89) of visual crowding effect under eccentricity 6° in my replication was much lower than the mean (mean = 2.58) in the original study. 
+
+Besides of the confirmatory analysis, I was able to replicate the percentage correctness in the visual crowding experiment (Figure 7b), the viewing distance distribution (Figure 7c; Figure 7d), the and the strong pairwise correlations within-subject viewing distance (Figure 7e). 
+
+I conclude that my project partially replicated the original findings. 
+
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+#### Assessment of Replication
+
+There are three potential reasons that could explain my replicate could not fully replicate the original findings. 
+
+1. Sample size: I had a very small sample (37 valid participants) compared with the original study.  
+
+2. Platform: Instead of collecting data "in the wild" in the original study, I recruited participants from Prolific who might be more skilled at participating psychophysics experiments. The analysis above shows that the average correctness rate (mean = 0.87) in my replication was slightly higher than the correctness rate in the original study (mean = 0.85). 
+
+3. Age: The original study has a broader age range (7-71), while my study only recruited young adults (18-30). The original study and their references showed age could older adults exhibited a larger crowding effect, particularly at greater eccentricity (6 deg). However, my exploratory analyses showed there was not a statistical difference in terms of age between the original study (mean = 27, median = 22) and my replication (mean = 23, median = 22). And the scatterplot "Relationship between age and visual crowding effect" demonstrates that, under eccentricity 6° condition, younger participants aged around 22 in the original sample showed crowding effect above 2.5°, still much higher than my replication 1.89°. Therefore, I cannot conclude that age was the primary reason for the failure to replicate. 
+
+4. Experimental Measurement: The Virtual Chinrest I used was a jsPsych plugin built by the jsPsych team who referred to the original authors' code. This new plugin, however, has not been validated by the physical chinrest in the lab. Therefore, it is likely that the plugin didn't calculate the viewing distance as consistently as the original built-in Virtual Chinrest, which further resulted in the inconsistent display of the stimuli in my replication. I am interested in conducting validation tasks about the plugin Virtual Chinrest using the physical chinrest in my lab. 
+
+#### Reflections 
+1. The original authors did a wonderful job on organizing and sharing the data, analysis code, and source code. 
+
+2. Pilot A involving expert group and non-expert group could give you feedback from different perspectives. 
+
+3. jsPsych is very user-friendly. Building a framework-free paradigm is key to future replications. 
+
+4. Replicating a psychophysics experiment was challenging but very fun. 
+
+#### Acknowledgment
+
+I want to express my gratitude to my instructor Dr. Mike Frank and my TAs, Sarah Wu, Julie Cachia, and Effie Li, who guided me and offered me detailed support throughout the project. I would also like to thank my adviser Dr. Jason Yeatman who introduced the original paper to me and encouraged me to learn jsPsych. Lastly, I want to thank my friends and labmates who participated in my Pilot A study and gave constructive feedback. 
+
+## References 
+
+Li, Q., Joo, S. J., Yeatman, J. D., & Reinecke, K. (2020). Controlling for participants’ viewing distance in large-scale, psychophysical online experiments using a virtual chinrest. Scientific reports, 10(1), 1-11.
