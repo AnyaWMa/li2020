@@ -359,7 +359,7 @@ summary(visual_crowding_accuracy$correctRate)
 plot_grid(original_plot_7b, replication_plot_7b, labels = c('Li et al., 2020', 'Ma, 2021 (Replication)'))
 ```
 
-#### Figure c: 
+#### Figure 7c: 
 ##### Distribution of calculated viewing distances
 
 ```{r}
@@ -532,6 +532,7 @@ ggplot(convert_visual_crowding, aes(x=age, y=critical_spacing_deg, color=eccentr
 Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
 
 The major inference from the original paper I wanted to justify was: 
+
 > "The average visual crowding effects were significantly different between target eccentricity of 4° (mean = 1.62°) and 6° (mean = 2.58°)" (Figure 7a). 
 
 Through a non-parametric Mann-Whitney U test, I replicated the significant difference (W = 390, p-value < 0.05) between the target eccentricity of 4° (mean = 1.59, sd = 0.68) and 6° (mean = 1.89, sd = 0.90). However, I failed to replicate the difference between the two conditions is using a parametric Welch's two sample t-test (t(31.997) = -1.4, p = 0.16, d = - 0.38). Moreover, the mean (mean = 1.89) of visual crowding effect under eccentricity 6° in my replication was much lower than the mean (mean = 2.58) in the original study. 
@@ -563,7 +564,7 @@ There are three potential reasons that could explain my replicate could not full
 
 4. Replicating a psychophysics experiment was challenging but very fun. 
 
-#### Acknowledgment
+## Acknowledgment
 
 I want to express my gratitude to my instructor Dr. Mike Frank and my TAs, Sarah Wu, Julie Cachia, and Effie Li, who guided me and offered me detailed support throughout the project. I would also like to thank my adviser Dr. Jason Yeatman who introduced the original paper to me and encouraged me to learn jsPsych. Lastly, I want to thank my friends and labmates who participated in my Pilot A study and gave constructive feedback. 
 
